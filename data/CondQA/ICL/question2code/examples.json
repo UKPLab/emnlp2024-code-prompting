@@ -1,0 +1,82 @@
+[
+    {
+        "question": "I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed How long can I work to complete the sentenced hours?",
+        "code": "# Question: I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed I have been convicted for assault and have been sentenced to community service for 60 hours. I am 27 years old and have been diagnosed with a mental health condition. I am currently unemployed How long can I work to complete the sentenced hours?\nconvicted_for_assault = True\ncommunity_service_hours = 60\nage = 27\nmental_health_condition = True\nunemployed = True\nwork_to_complete_sentenced_hours = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I'm 28, and have worked full-time for my current employer for just over 3 years. My wife is expecting our first child in a few months, and I intend to claim paid Paternity Leave when the baby is born. How much notice am I required to give my employer with regards to the starting date of my leave period?",
+        "code": "# Question: I'm 28, and have worked full-time for my current employer for just over 3 years. My wife is expecting our first child in a few months, and I intend to claim paid Paternity Leave when the baby is born. How much notice am I required to give my employer with regards to the starting date of my leave period?\nage = 28\nyears_worked = 3\nfull_time_employment = True\nexpecting_child = True\npaternity_leave_notice_period = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I am a 16 year old living in Derby and was born male, I do not feel like I fit into any gender category. What age can I apply for a certificate?",
+        "code": "# Question: I am a 16 year old living in Derby and was born male, I do not feel like I fit into any gender category. What age can I apply for a certificate?\n age = 16\nlocation = \"Derby\"\ngender_identity = \"non-binary\"\napply_certificate_age = None # This is the variable that answers the question"
+    },
+    {
+        "question": "Me and my friend own a property as common tenants. We want to change this ownership to joint tenants. What other documents do we need to supply to carry out this change?",
+        "code": "# Question: Me and my friend own a property as common tenants. We want to change this ownership to joint tenants. What other documents do we need to supply to carry out this change?\nproperty_ownership_common_tenants = True\nproperty_ownership_joint_tenants = True\nadditional_documents_required = None # This is the variable that represents the list of additional documents required to carry out the change"
+    },
+    {
+        "question": "I have written a will with a help of a solicitor before six years and I have lot of changes in my assets and I am planning to make some changes to my will Can I make changes to my will once I have signed ? what is the process to amend a will ?",
+        "code": "# Question: I have written a will with a help of a solicitor before six years and I have lot of changes in my assets and I am planning to make some changes to my will Can I make changes to my will once I have signed ? what is the process to amend a will ?\nwritten_will = True\nsolicitor_helped = True\nyears_since_will_written = 6\nchanges_in_assets = True\ncan_make_changes_to_will = None # This variable is the answer to the first question\nprocess_to_amend_will = None # This variable is the answer to the second question"
+    },
+    {
+        "question": "I am such a fool!! I had a call from what i thought was the tax office, saying I had a refund due. Unfortunately I gave them my bank account number. Where can I report this to HMRC to investigate?",
+        "code": "# Question: I am such a fool!! I had a call from what i thought was the tax office, saying I had a refund due. Unfortunately I gave them my bank account number. Where can I report this to HMRC to investigate?\ncall_from_tax_office = True\nrefund_due = True\nbank_account_number_given = True\nreport_to_hmrc = None # This is the variable that answers the question"
+    },
+    {
+        "question": "My child is 10 and has cerebal palsy. This means he is unable to walk. It is a struggle for me to get him around the house as his bedroom and the bathroom are upstairs. Where can I get help to make adaptations to my home to help my child?",
+        "code": "# Question: My child is 10 and has cerebal palsy. This means he is unable to walk. It is a struggle for me to get him around the house as his bedroom and the bathroom are upstairs. Where can I get help to make adaptations to my home to help my child?\nchild_age = 10\nhas_cerebral_palsy = True\nable_to_walk = False\nneed_home_adaptations = True\nadaptations_help_source = None # This variable represents the source of help for home adaptations"
+    },
+    {
+        "question": "I was getting Mortgage Interest Run On support to cover some of my house costs when my income support was stopped. I am starting a full time employment next week . Who should I inform ?",
+        "code": "# Question: I was getting Mortgage Interest Run On support to cover some of my house costs when my income support was stopped. I am starting a full time employment next week . Who should I inform ?\ngetting_mortgage_interest_run_on_support = True\nincome_support_stopped = True\nstarting_full_time_employment = True\ninform_employer = None # This variable represents who should be informed"
+    },
+    {
+        "question": "I am not a British citizen but live in UK for the last 10 years and have Indefinite Leave to Remain permit. I am on a permanent employment and planning to adopt a child in Malaysia What the proof I need to submit to get leave and get paid ?",
+        "code": "# Question: I am not a British citizen but live in UK for the last 10 years and have Indefinite Leave to Remain permit. I am on a permanent employment and planning to adopt a child in Malaysia What the proof I need to submit to get leave and get paid ?\nbritish_citizen = False\nlive_in_uk = True\nyears_in_uk = 10\nindefinite_leave_to_remain = True\npermanent_employment = True\nplanning_to_adopt_child = True\nadopt_child_from_malaysia = True\nproof_required_for_leave_and_payment = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I am an army reservist. I have just appealed a decision that refused me financial assistance. I have heard nothing back about my appeal. What information will I receive if my appeal will be heard?",
+        "code": "# Question: I am an army reservist. I have just appealed a decision that refused me financial assistance. I have heard nothing back about my appeal. What information will I receive if my appeal will be heard?\narmy_reservist = True\nappealed_decision = True\nfinancial_assistance_refused = True\nheard_nothing_back = True\nappeal_hearing_information = None # This is the variable that represents the information the user will receive about their appeal hearing."
+    },
+    {
+        "question": "We have two children, aged 11 and 15. My husband has recently started a new job that pays \u00a352,000 per year. I need to see if we can still get child benefit. Can the tax on income from child benefit be waived if I earn over \u00a350,000?",
+        "code": "# Question: We have two children, aged 11 and 15. My husband has recently started a new job that pays \u00a352,000 per year. I need to see if we can still get child benefit. Can the tax on income from child benefit be waived if I earn over \u00a350,000?\nchildren_count = 2\nchild1_age = 11\nchild2_age = 15\nhusband_income = 52000\nearn_over_50000 = None # This variable represents whether the income is over \u00a350,000\ntax_on_child_benefit_waived = None # This variable is the answer to the question"
+    },
+    {
+        "question": "My father, who was a widower and the owner of several large properties in Wales, died recently and apparently intestate. My paternal uncle is applying for probate, but I believe that I have a stronger claim. Do I have a greater right to probate in respect of my late father's estate?",
+        "code": "# Question: My father, who was a widower and the owner of several large properties in Wales, died recently and apparently intestate. My paternal uncle is applying for probate, but I believe that I have a stronger claim. Do I have a greater right to probate in respect of my late father's estate?\nfather_status = \"widower\"\nowner_of_properties = True\nlocation_of_properties = \"Wales\"\ndied_intestate = True\npaternal_uncle_applying_for_probate = True\nclaim_to_probate = Null # This variable is the answer to the question\n"
+    },
+    {
+        "question": "My aunt is disabled and owns a big home which needs light and heating system repairs. She is afraid of the house getting moulds and needs urgent repair . Is she allowed to seek disabled facility support?",
+        "code": "# Question: My aunt is disabled and owns a big home which needs light and heating system repairs. She is afraid of the house getting moulds and needs urgent repair . Is she allowed to seek disabled facility support?\naunt_disabled = True\nhome_repairs_needed = True\nhome_size = \"big\"\nurgent_repairs_needed = True\nafraid_of_mould = True\nseek_disabled_facility_support = None # This is the variable that answers the question"
+    },
+    {
+        "question": "My 4 year old son has been diagnosed with scoliosis, a spinal disorder which will leave him severely restricted mobility. The school which had previously offered him a place in Reception this September is now claiming that they can no longer accept him. Can the school rescind their offer in this manner?",
+        "code": "# Question: My 4 year old son has been diagnosed with scoliosis, a spinal disorder which will leave him severely restricted mobility. The school which had previously offered him a place in Reception this September is now claiming that they can no longer accept him. Can the school rescind their offer in this manner?\nson_diagnosed_scoliosis = True\nson_mobility_severely_restricted = True\nschool_offered_place = True\nreception_starting_september = True\nschool_rescind_offer = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I have applied to the land registry for the change of my name after I got married.I have accumulated all the needed documents as proof of name change. Do i need to attach a copy of marriage certificate?",
+        "code": "# Question: I have applied to the land registry for the change of my name after I got married.I have accumulated all the needed documents as proof of name change. Do i need to attach a copy of marriage certificate?\napplied_land_registry = True\nchange_name_after_marriage = True\nproof_documents = True\nattach_marriage_certificate = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I was born and raised in Australia. I have changed my gender and got a certificate in Australia. I have moved to UK three years back I would like to know whether I am eligible to apply for Gender Recognition Certificate in UK ?",
+        "code": "# Question: I was born and raised in Australia. I have changed my gender and got a certificate in Australia. I have moved to UK three years back I would like to know whether I am eligible to apply for Gender Recognition Certificate in UK ?\nborn_in_Australia = True\nchanged_gender_in_Australia = True\nmoved_to_UK = True\nyears_in_UK = 3\neligible_for_Gender_Recognition_Certificate_UK = Null # This variable is the answer to the question"
+    },
+    {
+        "question": "My partner has just had our second child and she wants to go back to work immediately, I will not be taking time off either. Would we still receive any sort of benefit if we are both working full time?",
+        "code": "# Question: My partner has just had our second child and she wants to go back to work immediately, I will not be taking time off either. Would we still receive any sort of benefit if we are both working full time?\npartner_has_second_child = True\npartner_wants_to_go_back_to_work = True\nno_time_off = True\nboth_working_full_time = True\neligible_for_benefits = Null # This variable is the answer to the question"
+    },
+    {
+        "question": "My wife and I are both UK Citizens, and have been resident for the whole of our lives. At the time of our marriage three years ago, she was pregnant with what I believed to be our daughter; however, subsequent DNA testing has revealed that I am not the girl's father. Can I have the marriage voided on in the light of this evidence?",
+        "code": "# Question: My wife and I are both UK Citizens, and have been resident for the whole of our lives. At the time of our marriage three years ago, she was pregnant with what I believed to be our daughter; however, subsequent DNA testing has revealed that I am not the girl's father. Can I have the marriage voided on in the light of this evidence?\nboth_UK_citizens = True\nresidents_of_UK = True\nmarried = True\nmarried_to_wife = True\nmarriage_duration = 3\nwife_pregnant_at_time_of_marriage = True\nDNA_testing_revealed_non-paternity = True\nvoid_marriage_due_to_non-paternity = Null # This variable is the answer to the question"
+    },
+    {
+        "question": "I am an asylum seeker who has recently arrived from Syria with my family. I do not have permission to be in the UK but would not be safe if we returned to our home country. As we are awaiting refugee status, do we still need a transit visa?",
+        "code": "# Question: I am an asylum seeker who has recently arrived from Syria with my family. I do not have permission to be in the UK but would not be safe if we returned to our home country. As we are awaiting refugee status, do we still need a transit visa?\nasylum_seeker = True\narrived_from_syria = True\nfamily = True\npermission_to_be_in_UK = False\nsafe_to_return_home_country = False\nawaiting_refugee_status = True\ntransit_visa_required = None # This is the variable that answers the question"
+    },
+    {
+        "question": "I run a door lock repair business. Due to the pandemic, there was not much work and borrowed some money from a small money lending firm and could not repay it and they have filed a court claim I am prepared to pay the money in instalments. Will the court accept me paying in instalments ?",
+        "code": "#Question: I run a door lock repair business. Due to the pandemic, there was not much work and borrowed some money from a small money lending firm and could not repay it and they have filed a court claim I am prepared to pay the money in instalments. Will the court accept me paying in instalments ?\ndoor_lock_repair_business = True\npandemic_impact = True\nborrowed_money = True\nmoney_lending_firm = True\ncourt_claim_filed = True\nrepay_in_instalments = True\ncourt_accept_instalment_payment = None # This is the variable that answers the question"
+    }
+]
