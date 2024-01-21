@@ -1,6 +1,6 @@
 # Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs
 
-This reporsitory includes the code and prompts we used in our 2024 arXiv paper "Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs."
+This repository includes the code and prompts we used in our 2024 arXiv paper "Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs."
 
 > **Abstract:** We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. 
 We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. We conduct experiments across two datasets: ConditionalQA, a scenario-based question answering (QA) dataset and BoardgameQA, a boardgame-based QA dataset with conflicting rules. Code prompts achieve large gains compared to text prompts. We also observe that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.
