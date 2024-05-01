@@ -1,0 +1,15 @@
+{
+    "dataset_name": "BoardgameQA-Main-depth2",
+    "data_path": "data/BoardgameQA/",
+    "batch_size": 10,
+    "num_dev_examples": 500,
+    "num_icl_examples": 3,
+    "seed": null,
+    "llm_name": "/storage/ukp/shared/shared_model_weights/models--mistralai--Mixtral-8x7B-Instruct-v0.1",
+    "load_8bits": null,
+    "mixtral_optimizations": true,
+    "hf_model": true,
+    "start_idx": 0,
+    "save_results": true,
+    "max_new_tokens": 800
+}

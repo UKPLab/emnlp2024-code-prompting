@@ -1,0 +1,15 @@
+{
+    "dataset_name": "BoardgameQA-Main-depth1",
+    "data_path": "data/CondQA/",
+    "num_dev_examples": 500,
+    "num_doc_translation_examples": 4,
+    "num_question_translation_examples": 6,
+    "num_interpreter_examples": 3,
+    "llm_name": "/storage/ukp/shared/shared_model_weights/models--mistralai--Mixtral-8x7B-Instruct-v0.1",
+    "mixtral_optimizations": true,
+    "load_8bits": null,
+    "hf_model": true,
+    "start_idx": 0,
+    "save_results": true,
+    "max_new_tokens": 2300
+}

@@ -1,0 +1,17 @@
+{
+    "dataset_name": "BoardgameQA-Main-depth3",
+    "data_path": "data/BoardgameQA/",
+    "batch_size": 10,
+    "num_dev_examples": 1000,
+    "num_icl_examples": 3,
+    "seed": 0,
+    "llm_name": "/storage/ukp/shared/shared_model_weights/models--mistralai--Mistral-7B-v0.1-complete",
+    "load_8bits": null,
+    "mixtral_optimizations": null,
+    "hf_model": true,
+    "awq_quant": null,
+    "start_idx": 0,
+    "save_results": true,
+    "max_new_tokens": 900,
+    "num_gpus": 1
+}

@@ -1,0 +1,12 @@
+{
+    "data_path": "data/sharc1-official",
+    "num_demonstrations_per_class": 1,
+    "batch_size": 10,
+    "llm_name": "/storage/ukp/shared/shared_model_weights/models--mistralai--Mistral-7B-Instruct-v0.2",
+    "hf_model": true,
+    "mixtral_optimizations": null,
+    "awq_quant": null,
+    "save_results": true,
+    "max_new_tokens": 50,
+    "seed": 1
+}
