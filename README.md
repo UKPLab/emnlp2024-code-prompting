@@ -1,6 +1,6 @@
 # Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs
 
-This repository includes the code and prompts we used in our 2024 arXiv paper "Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs."
+This repository includes the code and prompts we used in our EMNLP 2024 paper "[Code Prompting Elicits Conditional Reasoning Abilities in Text+Code LLMs](https://arxiv.org/abs/2401.10065)."
 
 > **Abstract:** We hypothesize that code prompts can trigger conditional reasoning in LLMs trained on text and code. 
 We propose a chain of prompts that transforms a natural language problem into code and prompts the LLM with the generated code. We conduct experiments across two datasets: ConditionalQA, a scenario-based question answering (QA) dataset and BoardgameQA, a boardgame-based QA dataset with conflicting rules. Code prompts achieve large gains compared to text prompts. We also observe that code prompts are more efficient, requiring fewer demonstrations, and that they trigger superior state tracking of variables or key entities.
@@ -60,3 +60,12 @@ Don't hesitate to send us an e-mail or report an issue if something is broken (a
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication. 
 
 Please use the following citation if you find our paper and/or code useful:
+
+```
+@article{puerto2024code,
+        title={Code Prompting Elicits Conditional Reasoning Abilities in Text+ Code LLMs},
+        author={Puerto, Haritz and Tutek, Martin and Aditya, Somak and Zhu, Xiaodan and Gurevych, Iryna},
+        journal={arXiv preprint arXiv:2401.10065},
+        year={2024}
+      }
+```
